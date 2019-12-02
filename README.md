@@ -1,2 +1,2 @@
-# xudadi.github.io
-My Personal Site
+# kikuchanj.github.io
+ 

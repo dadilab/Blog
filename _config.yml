@@ -1,0 +1,46 @@
+highlighter: rouge
+gems: [jekyll-paginate]
+encoding: utf-8
+paginate: 8
+paginate_path: "page:num"
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+name: xudadi
+bio: xudadi.com
+url: https://www.xudadi.com/
+email: admin@xudadi.com
+logo: "/assets/img/def/logo.jpg"
+fav: "/favicon.ico"
+title: 许大大博客
+description: 许大大的个人网站
+
+defaults:
+ -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      show_ad: true
+
+navs:
+  - 
+    href: /default.html
+    label: 主页
+  - 
+    href: https://weibo.com/xudadi811
+    label: 微博
+  -
+    href: /archives
+    label: 归档
+  - 
+    href: /about
+    label: 关于
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_id: xudadi
+weibo_id: xudadi811
