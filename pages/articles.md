@@ -4,7 +4,7 @@ layout: post
 permalink: /articles/
 dskey: /articles.html
 favicon: /assets/img/fav/articles.png
-show_ad: false
+show_ad: true
 ---
 
 {% for category in site.categories %}
