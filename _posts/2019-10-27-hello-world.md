@@ -1,6 +1,6 @@
 ---
 title: Hello World
-category: 随笔
+category: read
 excerpt: Hello World……
 ---
 
