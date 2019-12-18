@@ -7,7 +7,7 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
 
-name: 许大地博客-Xu Dadi's Personal Website
+name: 许大地博客
 bio: xudadi.com
 url: https://www.xudadi.com/
 email: admin@xudadi.com
