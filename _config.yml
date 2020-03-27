@@ -32,6 +32,7 @@ navs:
   - 
     href: https://weibo.com/xudadi811
     label: 微博
+    external_link: true # 在新标签中打开外部链接
   -
     href: /archives
     label: 归档
