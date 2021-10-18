@@ -37,40 +37,43 @@ npm install hexo-cli g
 ```
 
 国内安装可能很慢，修改镜像源，输入命令
-```
+
 1.临时使用
+```
 npm --registry https://registry.npm.taobao.org install express
+```
 
 2.持久使用
+```
 npm config set registry https://registry.npm.taobao.org
+```
 
 配置后可通过下面方式来验证是否成功
+```
 npm config get registry 或 npm info express
+```
 
 3.通过cnpm使用
+```
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
 
 Hexo下载完成后，需要在blog文件夹内初始化Hexo，执行命令
-
 ```
 hexo init
 ```
 
 # 3.获取博客主题
-
 ```
 npm install hexo -renderer-scss --save
 ```
 
 # 4.Hexo安装swig
-
 ```
 npm i hexo-renderer-swig
 ```
 
 # 5.克隆主题
-
 ```
 git clone https://gitee.com/xudadi/hexo-theme-even themes/even
 ```
@@ -109,7 +112,6 @@ deploy:
 # 7.本地预览博客
 
 清除缓存
-
 ```
 hexo clean
 ```
@@ -120,20 +122,17 @@ hexo g
 ```
 
 运行项目，输入命令：
-
 ```
 hexo s
 ```
 
 # 8.在_config.yml中配置博客地址和路径
-
 ```
 url: https://xudadi.cn/blog/
 root: /blog
 ```
 
 # 9.发布到github
-
 输入命令,安装自动部署发布工具
 ```
 npm install hexo-deployer-git --save
