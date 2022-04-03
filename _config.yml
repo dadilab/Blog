@@ -35,7 +35,7 @@ navs:
     href: https://weibo.com/xudadi811
     label: 微博
     external_link: 
-     enable:true
+           enable:true
   -
     href: /blog/archives
     label: 归档
