@@ -14,7 +14,7 @@ body {
 body {
     margin: 0;
     padding: 0;
-    /* background: #151515; */
+    background: #ffffff;
     color: black;
     font-weight: 300;
     font-size: 20px;
@@ -305,13 +305,13 @@ body {
 /*S Post*/
 .post-content {
     word-wrap: break-word;
-    font-size: 1em;
+    font-size: 0.72em;
     line-height: 1.68;
     font-weight: 400;
     overflow: hidden;
     letter-spacing: 0.036em;
-    margin: 0px 15% 60px;
-    padding: 0px 6.4%;
+    margin: 60px 15% 60px;
+    padding: 50px 6.4%;
     background: white;
     color: #4f4f4f;
 }
@@ -554,7 +554,7 @@ td {
 }
 
 .footer-copyright {
-    color: black;
+    color: #020101;
     font-size: 0.6em;
     height: 30px;
     margin: 20px auto 0;
