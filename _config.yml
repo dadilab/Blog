@@ -11,7 +11,7 @@ name: 许大地
 bio: xudadi.com
 url: https://www.xudadi.com/
 email: admin@xudadi.com
-logo: "/assets/img/def/logo.jpg"
+logo: "/blog/assets/img/def/logo.jpg"
 fav: "/favicon.ico"
 title: 许大地博客
 description: 许大地的个人网站
@@ -29,17 +29,17 @@ defaults:
 
 navs:
   - 
-    href: /blog/default.html
+    href: /default.html
     label: 主页
   - 
     href: https://weibo.com/xudadi811
     label: 微博
     external_link: true # 在新标签中打开外部链接
   -
-    href: /blog/archives
+    href: /archives
     label: 归档
   - 
-    href: /blog/about
+    href: /about
     label: 关于
 
 # ---------------- #
