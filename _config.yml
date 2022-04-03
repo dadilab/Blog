@@ -29,17 +29,17 @@ defaults:
 
 navs:
   - 
-    href: /default.html
+    href: /blog/default.html
     label: 主页
   - 
     href: https://weibo.com/xudadi811
     label: 微博
     external_link: true # 在新标签中打开外部链接
   -
-    href: /archives
+    href: /blog/archives
     label: 归档
   - 
-    href: /about
+    href: /blog/about
     label: 关于
 
 # ---------------- #
