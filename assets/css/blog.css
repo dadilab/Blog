@@ -14,7 +14,7 @@ body {
 body {
     margin: 0;
     padding: 0;
-    background: #ffffff;
+    background: #fffefe;
     color: black;
     font-weight: 300;
     font-size: 20px;
@@ -212,6 +212,8 @@ body {
     margin: 40px 15% 20px;
 }
 
+.header {}
+
 .nav-home {
     text-align: right;
 }
@@ -223,7 +225,7 @@ body {
 
 .nav-home span {
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 1em;
     letter-spacing: 0.12em;
     line-height: 30px;
 }
@@ -305,10 +307,10 @@ body {
 /*S Post*/
 .post-content {
     word-wrap: break-word;
-    font-size: 0.72em;
+    font-size: 0.8em;
     line-height: 1.68;
     font-weight: 400;
-    overflow: hidden;
+    text-align: justify;overflow: hidden;
     letter-spacing: 0.036em;
     margin: 0px 15% 60px;
     padding: 0px 6.4%;
