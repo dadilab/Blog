@@ -29,7 +29,7 @@ defaults:
 
 navs:
   - 
-    href: /blog/default.html
+    href: /blog/index.html
     label: 主页
   - 
     href: https://weibo.com/xudadi811
