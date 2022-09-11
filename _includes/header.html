@@ -9,8 +9,9 @@
         <a href="/blog/index.html"><span>{{ site.name }}</span></a>
         <a href="/blog/"><img src="{{ site.logo }}" /></a>
     </div>
-<span class="module-title">{{ page.title }}</span>
+
 <ul class="nav-tab-others">
+    <span class="module-title">{{ page.title }}</span>
     {% for nav in site.navs %} 
     {% if nav.label != page.title %}
    <li><a href="{{ nav.href }}">{{ nav.label }}</a></li>
