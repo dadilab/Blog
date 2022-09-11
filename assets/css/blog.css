@@ -42,6 +42,10 @@ body {
     text-decoration: none;
 }
 
+.post-list img {
+    width: 80%;
+}
+
 .post-item {
     font-size: 1em;
     margin: 0px 10px;
