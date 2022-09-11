@@ -20,10 +20,6 @@ body {
     font-size: 20px;
 }
 
-.img-width {
-	width: 80%;
-}
-
 .content-wrap {
     min-height: 100%;
 }
@@ -337,7 +333,7 @@ strong {
 }
 
 .post-content img {
-    max-width: 100%;
+    max-width: 80%;
     display: block;
     margin: 10px auto;
     max-height: 600px;
