@@ -1,7 +1,7 @@
 ---
 title: 'Android 过度绘制优化'
 date: 2019-09-19 14:11:31
-tags: []
+tags: [Android]
 published: true
 hideInList: false
 feature: 

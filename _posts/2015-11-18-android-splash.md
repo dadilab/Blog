@@ -1,7 +1,7 @@
 ---
 title: 'Android 启动页 (Splash) 的实现'
 date: 2019-09-19 14:12:32
-tags: [文章,科技]
+tags: [Android]
 published: true
 hideInList: false
 feature: 

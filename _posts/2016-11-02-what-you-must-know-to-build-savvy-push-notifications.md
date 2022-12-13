@@ -1,7 +1,7 @@
 ---
 title: '如何设计精准的推送通知？【译】'
 date: 2019-09-19 14:11:28
-tags: []
+tags: [推送]
 published: true
 hideInList: false
 feature: 

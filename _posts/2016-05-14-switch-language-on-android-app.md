@@ -1,7 +1,7 @@
 ---
 title: 'Android App 多语言切换'
 date: 2019-09-19 14:11:39
-tags: []
+tags: [Android]
 published: true
 hideInList: false
 feature: 

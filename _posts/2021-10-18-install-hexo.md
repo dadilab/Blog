@@ -1,9 +1,11 @@
 ---
-title: install-hexo
+title: 'install-hexo'
 date: 2021-10-18 11:39:51
-tags: hexo
+tags: [hexo]
 published: true
 hideInList: false
+feature: 
+isTop: false
 ---
 
 ## 环境要求
@@ -24,7 +26,7 @@ Git：https://pc.qq.com/search.html#!keyword=git
 
 安装好Nodejs和Git后
 <!-- more -->
-# 2.安装Hexo
+## 2.安装Hexo
 
 在D盘创建一个blog文件夹，或者其他盘都可以
 
@@ -63,17 +65,17 @@ Hexo下载完成后，需要在blog文件夹内初始化Hexo，执行命令
 hexo init
 ```
 
-# 3.获取博客主题
+## 3.获取博客主题
 ```
 npm install hexo -renderer-scss --save
 ```
 
-# 4.Hexo安装swig
+## 4.Hexo安装swig
 ```
 npm i hexo-renderer-swig
 ```
 
-# 5.克隆主题
+## 5.克隆主题
 ```
 git clone https://gitee.com/xudadi/hexo-theme-even themes/even
 ```
@@ -82,7 +84,7 @@ git clone https://gitee.com/xudadi/hexo-theme-even themes/even
 我们所要使用的主题都是放在这个目录下，Hexo默认使用的是landscape主题，由于第二步Hexo初始化时主题没有clone成功，所以我们这一步克隆了even主题，接下来会使用even主题进行演示。
 想获取更多主题，可在网站：https://hexo.io/themes/ 选择自己喜欢的主题，按照此步的步骤clone下来。
 
-# 6._config.yml进行博客基础配置
+## 6._config.yml进行博客基础配置
 
 title: 博客名字
 
@@ -98,7 +100,7 @@ language: 语言
 
 timezone: 时区
 
-# 7.在_config.yml中配置Git
+## 7.在_config.yml中配置Git
 
 注意空格（type，repo，branch）
 
@@ -109,7 +111,7 @@ deploy:
   branch: master
 ```
 
-# 7.本地预览博客
+## 7.本地预览博客
 
 清除缓存
 ```
@@ -126,13 +128,13 @@ hexo g
 hexo s
 ```
 
-# 8.在_config.yml中配置博客地址和路径
+## 8.在_config.yml中配置博客地址和路径
 ```
 url: https://xudadi.cn/blog/
 root: /blog
 ```
 
-# 9.发布到github
+## 9.发布到github
 输入命令,安装自动部署发布工具
 ```
 npm install hexo-deployer-git --save
